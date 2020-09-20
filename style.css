@@ -44,7 +44,7 @@ body{
 .firstBlock{
     color: #FFFFFF;
     height: 744px;
-    background: url(/assets/bg-image.png) center no-repeat #000;
+    background: url(assets/bg-image.png) center no-repeat #000;
 }
 .header{
  height: 95px;
