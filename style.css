@@ -276,7 +276,7 @@ margin: 0 100px 0 100px;
 }
 /* 4block*/
 .singUp{
-    background: url(/assets/singup_img.png) center no-repeat #FFFFFF;
+    background: url(assets/singup_img.png) center no-repeat #FFFFFF;
     background-position: bottom;
 
 }
@@ -313,7 +313,7 @@ margin: 0 100px 0 100px;
       outline:none;
       width: 66px;
       height: 46px;
-      background: #00AFDB url(/assets/input-check.png) no-repeat center;
+      background: #00AFDB url(assets/input-check.png) no-repeat center;
   }
   .form_submit:hover{
     background-color: #009CC2;
@@ -371,10 +371,10 @@ margin: 0 100px 0 100px;
         padding: 0;
     }
     .btn_appstore-icon{
-        background:#009CC2 url(/assets/applestore.png) no-repeat center;
+        background:#009CC2 url(assets/applestore.png) no-repeat center;
     }
     .btn_playmarket-icon{
-        background:#009CC2 url(/assets/playmarket.png) no-repeat center;
+        background:#009CC2 url(assets/playmarket.png) no-repeat center;
     }
     .btn_download:hover{
         background-color:#009CC2;
