@@ -53,11 +53,6 @@ body{
  align-items: center;
  position: relative;
 }
-.webdev{
-    position: absolute;
-    left: 0;
-    color: #4E4E4E;;
-}
 
 .header_nav{
     display: flex;
@@ -295,20 +290,36 @@ margin: 0 100px 0 100px;
     color: #FFFFFF;
 }
 .input_wrap{
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .form_input{
     width: 406px;
     height: 46px;
     border: none;
     outline:none;
+
 }
 .form_input::placeholder {
     padding: 14px 0 12px 24px;
     color: #373737;
   }
+  .form_textarea{
+      margin-bottom: 40px;
+      height: 200px;
+      border: none;
+      outline: none;
+  }
+  .form_textarea::placeholder {
+    padding: 14px 0 12px 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #4E4E4E;
+    font-size: 14px;
+  }
   .form_submit{
+      display: block;
+      margin: 0 auto;
+
       border: none;
       outline:none;
       width: 66px;
