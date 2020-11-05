@@ -18,6 +18,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #4E4E4E;
     font-size: 14px;
+
 }
 
 .container{
@@ -182,11 +183,12 @@ margin: 0 100px 0 100px;
 }
 /* 2block*/
 .ourCommunity{
-    background-color: #F5F6F7;
+    
     position: relative;
 }
 .ourCommunity_wrap{
     display: flex;
+    background-color: #F5F6F7;
     
 }
 .left_column-content{
@@ -549,5 +551,9 @@ text-decoration: underline;
 @media (max-width: 1600px){
     .container{
        width: 1300px;
+       
+    }
+    body {
+        min-width: 1000px;
     }
 }
